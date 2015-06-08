@@ -373,17 +373,21 @@ input.search-form:hover {
 }
 
 #main-slider .carousel .carousel-content {
-  margin-top: 150px;
+  margin-top: 250px;
 }
 
 #main-slider .carousel .slide-margin{
-  margin-top: 140px;
+  margin-top: 40px;
 }
 
 #main-slider .carousel h2 {
   color: #fff;
+  font-size: 15px;
 }
-
+#main-slider .carousel h1 {
+  color: #fff;
+  font-size: 20px;
+}
 #main-slider .carousel .btn-slide {
   padding: 8px 20px;
   background: #8B497E;
@@ -2581,3 +2585,34 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 /* Faculty Ends */
+
+/*Notification Panel Starts*/
+#wrap {
+    padding:0.5em;
+}
+.panel.panel-horizontal {
+    display:table;
+    width:100%;
+}
+.panel.panel-horizontal > .panel-heading, .panel.panel-horizontal > .panel-body, .panel.panel-horizontal > .panel-footer {
+    display:table-cell;
+}
+.panel.panel-horizontal > .panel-heading, .panel.panel-horizontal > .panel-footer {
+    width: 30%;
+    border:0;
+    vertical-align: middle;
+}
+.panel.panel-horizontal > .panel-heading {
+    border-right: 1px solid #ddd;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 4px;
+    background-color: green;
+    color: white;
+    width: 10%;
+}
+.panel.panel-horizontal > .panel-footer {
+    border-left: 1px solid #ddd;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 4px;
+}
+/* notification panel ends */
